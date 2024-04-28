@@ -1,0 +1,53 @@
+/* Завдання 1 */
+.text-box > h3:first-child {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+div + div {
+    color: red;
+}
+.text-box > p:nth-child(7) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+/* Завдання 2 */
+.heading:hover {
+    color: red;
+}
+.list .item:first-child {
+    color: green;
+}
+.list .item:nth-child(2) {
+    color: red;
+}
+.list .item:last-child {
+    color: blue;
+}
+.list2 .item:nth-child(-n + 1) {
+    color: darkkhaki;
+}
+.list2 .item:nth-child(n + 2) {
+    color: blueviolet;
+}
+.list3 .item:first-child {
+    color: brown;
+}
+.list3 .item:nth-child(2) {
+    color: darkorchid;
+}
+.list3 .item:last-child {
+    color: gold;
+}
+.list4 .item:only-child {
+    color: red;
+}
+.list5 .item:first-child {
+    color: seagreen;
+}
+.list5 .item:last-child {
+    color: dodgerblue;
+}
